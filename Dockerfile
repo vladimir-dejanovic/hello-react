@@ -11,11 +11,9 @@ RUN       \
     rm -rf /var/lib/apt/lists/*	
 
 RUN  npm install -g bower
-RUN ln -s /usr/bin/nodejs /usr/bin/node
 
 RUN useradd react
 
-EXPOSE 8888
-EXPOSE 8080
+EXPOSE 3000
 
 CMD /bin/bash
