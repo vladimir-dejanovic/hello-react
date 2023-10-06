@@ -1,2 +1,3 @@
-# react-docker-nodejs
-simple docker setup to be able to play with react
+# Hello React
+
+this is complimentory code for my blog post **Hello React**
